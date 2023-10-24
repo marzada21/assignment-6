@@ -1,0 +1,45 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(230, 230, 230, 0.671);
+    margin: 0;
+    padding: 0;
+    background-image: url(static/camille-brodard-vc1fE6QrYlE-unsplash\ \(2\).jpg);
+    background-size: cover;
+}
+
+.thank-you {
+    
+    height: 800px;
+}
+
+.intro {
+    color: white;
+    font-size: 30px;
+    width: 600px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.link-container {
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    background-color: #ebd3b4;
+    width: 250px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.return-link {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-size: 20px;
+}

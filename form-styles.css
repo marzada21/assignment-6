@@ -1,0 +1,74 @@
+html {
+    background-image: url(static/camille-brodard-vc1fE6QrYlE-unsplash\ \(2\).jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    padding: 20px;
+}
+
+input {
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+    max-width: 500px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 25px;
+}
+
+.submit-container {
+    border-radius: 50px;
+    background-color: #ebd3b4;
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(49, 49, 49);
+}
+
+.return-container {
+    border-radius: 50px;
+    background-color: #ebd3b4;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(49, 49, 49);
+}
+
+.return {
+    margin: auto;
+}
